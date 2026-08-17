@@ -1,0 +1,15 @@
+# WorkBuddy 内部记忆/状态，不随项目上传
+.workbuddy/
+
+# 每日密码导出表（已从文件夹剪切走，不入库）
+每日密码表*.xlsx
+
+# 本地 HTTPS 测试用：自签名证书私钥 + 测试服务器（不上传 GitHub，本地保留）
+cert.pem
+key.pem
+local_server.js
+
+# Python 自动生成的字节码缓存，每次运行会重建，无需入库
+__pycache__/
+*.pyc
+*.pyo
